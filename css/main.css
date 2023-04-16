@@ -40,6 +40,9 @@ main{
   align-items: center;
   gap: 120px;
 }
+.main-content h4{
+padding-top: 8px;
+}
 body {
   width: 100%;
   display: flex;
@@ -89,8 +92,7 @@ body {
   justify-content: center;
   flex-direction: row;
 }
-.desiegns{
-}
+
 .services {
 
   width: 100vw;
@@ -462,9 +464,20 @@ input {
   align-content: center;
   flex-wrap: wrap;
 }
+footer{
+font-size: 20px;
+color: #66fcf1;
+padding-bottom: 10px;
+padding-right: 40px;
+display: flex;
+justify-content: end;
+width: inherit;
+
+}
+
 @media(max-width :1200px){
   html {
-    font-size: 80%;
+    font-size: 70%;
   }
   .mypic{
     width: 350px;
