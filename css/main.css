@@ -379,7 +379,6 @@ align-self: flex-end;
   width: 1000vw;
 }
 .contact {
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
