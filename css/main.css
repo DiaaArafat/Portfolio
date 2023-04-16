@@ -380,9 +380,10 @@ align-self: flex-end;
 }
 .contact {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-content: center;
+  flex-wrap: wrap;
 }
 
 .contact form {
@@ -425,7 +426,7 @@ align-self: flex-end;
   color: transparent;
 }
 textarea {
-  width: 840px;
+  min-width: 850px;
   height: 170px;
   padding: 1rem;
   font-size: 0.7rem;
