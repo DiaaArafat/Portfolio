@@ -435,7 +435,7 @@ align-self: flex-end;
   color: transparent;
 }
 textarea {
-  min-width: 850px;
+  min-width: 830px;
   height: 170px;
   padding: 1rem;
   font-size: 0.7rem;
@@ -499,14 +499,85 @@ footer a:hover{
 .Skills{
   width: 100vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.Skills-cont{
+  padding-top: 50px;
+  flex-direction: row;
+  flex: 1 1 1;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.Skills-title{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+.Skills-title h3{
+  padding-top: 10px;  
+    color: #66fcf1;
+
+}
+.Skills-box{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  place-content: center;
+  justify-content: center;
+  height: 8.5rem;
+  width: 18rem;
+  font-size: 0.8rem;
+  background-color: #233f61;
+  border-radius: 2rem;
+  padding: 0.7rem 1rem 4rem;
+  text-align: center;
+  border: 0.2rem solid #536976;
+  margin: 10px;
+  transition: 0.3s ease-in-out;
+}
+.Skills-box:hover{
+  border: 0.2rem solid #66fcf1;
+  scale: 1.06;
+}
+.Skills-title h3{
+  font-size: 1.7rem;
+  font-weight: 9000;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  }
+.skills-img{
+  margin-top: 4rem;
+
+  width: 4.5rem;
+  height:4.5rem;
+border-radius: 60px;
+background-color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.skill-icon {
+  
+  width: 3rem;
+}
+
 
 @media(max-width :1200px){
+
   textarea{
-    min-width: 450px;
+    min-width: 400px;
   }
   html {
     font-size: 70%;
