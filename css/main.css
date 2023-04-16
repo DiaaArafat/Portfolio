@@ -116,6 +116,7 @@ body {
   display: inline-flex;
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   font-size: 3.5rem;
@@ -199,7 +200,9 @@ nav a:hover {
 .bx-menu:hover {
   color: #66fcf1;
 }
-
+.bx-up-arrow-alt {
+  font-size: 2rem;
+}
 .social a {
   display: inline-flex;
   justify-content: center;
@@ -378,9 +381,13 @@ align-self: flex-end;
   font-size: 4rem;
 }
 #projects {
-  width: 1000vw;
+  width: 100vw;
+}
+.projects{
+  width: 100vw;
 }
 .contact {
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -466,7 +473,7 @@ input {
 }
 footer{
 font-size: 20px;
-color: #66fcf1;
+
 padding-bottom: 10px;
 padding-right: 40px;
 display: flex;
@@ -474,8 +481,33 @@ justify-content: end;
 width: inherit;
 
 }
+footer a{
+  color: #66fcf1;
+  border: 2px solid #66fcf1;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border-radius: 50%;
+  transition:0.3s ease-in-out;
+}
+footer a:hover{
+  color: #233f61;
+  box-shadow: 0 0 1rem #66fcf1;;
+  background: #66fcf1;
+  border-radius: 50%;
+}
+.Skills{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 @media(max-width :1200px){
+  textarea{
+    min-width: 450px;
+  }
   html {
     font-size: 70%;
   }
@@ -492,4 +524,23 @@ width: inherit;
     width: 300px
   }
 
+}
+@media(max-width:600px){
+  textarea{
+    min-width: 350px;
+  }
+}
+@media(max-width :660px){
+.title::after{
+  width: 2rem;
+}
+.title::before{
+  width: 2rem;
+}
+html {
+  font-size: 40%;
+}
+.mypic{
+  width: 100px
+}
 }
