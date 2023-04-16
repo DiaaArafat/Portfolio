@@ -290,7 +290,7 @@ nav a:hover {
   left: 0;
 }
 .servBtn {
-  padding-top: 20px;
+  padding-top: 8px;
 }
 .service-box i {
   font-size: 4rem;
@@ -529,8 +529,15 @@ footer a:hover{
   textarea{
     min-width: 350px;
   }
+  .desigenPhoto{
+    width: 140px;
+  }
+  .desigenPhoto{
+    width: 240px;
+  }
 }
 @media(max-width :660px){
+
 .title::after{
   width: 2rem;
 }
